@@ -19,3 +19,7 @@ Technologies Used:
 The most involved part of this code is a function which I named getAndShowWeather. This function is making both API calls, taking the data from the responses, and dynamcally creating elements and appending them to the page using that data. This function is also handling some of the styling of the app, specifically the uv index font coloring and the columns for the 5 day weather information. 
 
 At first the front page of the app is very plain displaying only a search button and basically a blank page with a small amount of styling. The search button is doing most of the heavy lifting for this app. When the search button is clicked, the sections that display information are first cleared, and then the getAndShowWeather function runs and displays the information for whichever city is searched for. A button for that city is then created below the search button, so that the user can simply click that button to re-search for that city. 
+
+
+
+![search](https://github.com/JerryForsberg/JFWeatherDashboard/blob/master/wd-2.PNG)
