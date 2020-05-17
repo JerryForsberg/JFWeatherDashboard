@@ -1,0 +1,62 @@
+body {
+    background: #362d41;
+}
+
+header {
+    color: white;
+    font-weight: bolder;
+    font-size: 35px;
+    height: 40px;
+    width:100%;
+    text-align: center;
+}
+
+#mainPage {
+    margin: 20px;
+    background: white;
+    padding: 15px;
+    
+}
+
+#leftForm {
+    background: lightgrey;
+    max-width: 20%;
+}
+
+input {
+    width: 40px;
+    height: 25px;
+}
+
+.btn-group-vertical {
+    width: 100%;
+    
+
+
+}
+
+.btn-light {
+    border: 3px;
+    border-color: black; 
+    border: solid;
+    margin: 5px;
+}
+
+
+.row {
+    background-color:grey;
+}
+
+.card {
+    display: inline-block;
+    margin: 20px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+ }
