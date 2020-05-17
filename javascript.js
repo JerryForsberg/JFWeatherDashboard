@@ -1,5 +1,5 @@
 var apiKey = '8168c800802d67f2a69af5d521e45605';
-var baseUrl = 'http://api.openweathermap.org/data/2.5/';
+var baseUrl = 'https://api.openweathermap.org/data/2.5/';
 var searchButton = document.getElementById('button-addon2');
 
 // second call
