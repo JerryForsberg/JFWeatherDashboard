@@ -23,3 +23,10 @@ At first the front page of the app is very plain displaying only a search button
 
 
 ![search](https://github.com/JerryForsberg/JFWeatherDashboard/blob/master/wd-2.PNG)
+
+
+
+There are future opportunities with this app to work on some of the features that are not yet complete:
+    - The app is not yet mobile functional
+    - The app does not display the current date or weather icon in the current day information section
+    - When initially loaded, the app could take the current location of the user and display the information before they search, or the       page could use more styling and filler so that it does not look so plain when the page is first loaded.
