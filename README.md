@@ -9,4 +9,4 @@ Technologies Used:
     - CSS and Bootstrap for styling 
     - Jquery and javascript to dynamically create elements and take information from the object returned from the API's.
     - OpenWeather API to obtain the weather information 
-![main page](Personal_class_resources\jf_weather_dashboard\JFWeatherDashboard\weather dashboard.PNG)
+![main page](jf_weather_dashboard\JFWeatherDashboard\weather dashboard.PNG)
