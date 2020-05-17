@@ -100,14 +100,14 @@ function getAndShowWeather(firstApiUrl) {
             $(uviParagraph).attr('id', 'uvi');
             $('#info').append(uviParagraph);
             if (displayUvi <= 2) {
-                document.getElementById('uvi').style.backgroundColor = 'green';
+                document.getElementById('uvi').style.color = 'green';
 
             } else if (displayUvi <= 5) {
-                document.getElementById('uvi').style.backgroundColor = 'yellow';
+                document.getElementById('uvi').style.color = 'yellow';
             } else if (displayUvi <= 7) {
-                document.getElementById('uvi').style.backgroundColor = 'orange';
+                document.getElementById('uvi').style.color = 'orange';
             } else {
-                document.getElementById('uvi').style.backgroundColor = 'red';
+                document.getElementById('uvi').style.color = 'red';
             };
 
             // var formattedDate = convertUnixTimestamp(response.list[0].dt);
@@ -126,7 +126,7 @@ function getAndShowWeather(firstApiUrl) {
 
 
                 var day5Div = document.createElement("div");
-                $(day5Div).addClass("card text-white bg-primary mb-3");
+                $(day5Div).addClass("card text-white bg-primary mb-3 col-sm-2");
                 $('#5day').append(day5Div);
 
 
@@ -146,10 +146,12 @@ function getAndShowWeather(firstApiUrl) {
 
                 var tempParagraph = document.createElement("p");
                 tempParagraph.innerText = "Temperature: " + temp;
+                tempParagraph.style.fontSize = '14px';
                 bodyDiv.append(tempParagraph);
 
                 var humidityParagraph = document.createElement("p");
                 humidityParagraph.innerText = "Humidity: " + humid;
+                humidityParagraph.style.fontSize = '14px';
                 bodyDiv.append(humidityParagraph);
 
             }
