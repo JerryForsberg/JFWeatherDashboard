@@ -10,5 +10,5 @@ Technologies Used:
     - Jquery and javascript to dynamically create elements and take information from the object returned from the API's.
     - OpenWeather API to obtain the weather information 
 
-[blank dashboard](https://github.com/JerryForsberg/JFWeatherDashboard/blob/master/weatherdashboard.PNG)
+![blank dashboard](https://github.com/JerryForsberg/JFWeatherDashboard/blob/master/weather%20dashboard.PNG)
 
